@@ -3,8 +3,12 @@
   <Actor ID="2" Desc="弓箭手" ModelDir="Actors/Players/HDL_woman_01" ModelName="" Type="PLAYER" UpbodyComponent="True" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="职业" CreateHeadTitle="True">
     <PhyInfo Height="1" Radius="0.5" Step="1" SlopLimit="60" X="1" Y="1" Z="1.8" />
   </Actor>
-  <Actor ID="3" Desc="法师" ModelDir="Actors/Players/HDL_man_1" ModelName="" Type="PLAYER" UpbodyComponent="True" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="职业" CreateHeadTitle="True">
+  <Actor ID="3" Desc="法师" ModelDir="Actors/Players/Mage" ModelName="" Type="PLAYER" UpbodyComponent="True" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="职业" CreateHeadTitle="True">
     <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="1" Y="1" Z="1.8" />
+  </Actor>
+
+  <Actor ID="1" Desc="男枪" ModelDir="Actors/Players/HDL_man_1" ModelName="" Type="PLAYER" UpbodyComponent="True" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="职业" CreateHeadTitle="True">
+    <PhyInfo Height="1" Radius="0.5" Step="1" SlopLimit="60" X="1" Y="1" Z="1.8" />
   </Actor>
   <Actor ID="8000" Desc="屠杀者" ModelDir="Actors/Monsters/HDL/HDL_Abomi_01" ModelName="" Type="MONSTER" UpbodyComponent="False" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="HDL第一关" CreateHeadTitle="True">
     <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="2" Y="2" Z="4" />
@@ -34,6 +38,13 @@
     <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="1" Y="1" Z="3" />
   </Actor>
   <Actor ID="8009" Desc="门" ModelDir="Actors/Monsters/HDL/HDL_men_01" ModelName="" Type="MONSTER" UpbodyComponent="False" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="HDL第一关" CreateHeadTitle="True">
+    <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="0" Y="0" Z="0" />
+  </Actor>
+  <Actor ID="8010" Desc="魔佛像" ModelDir="Actors/Monsters/HDL/M_b_h_Guardian" ModelName="" Type="MONSTER" UpbodyComponent="False" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="HDL第一关" CreateHeadTitle="True">
     <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="1" Y="1" Z="3" />
   </Actor>
+  <Actor ID="8011" Desc="炮弹枪兵" ModelDir="Actors/Monsters/HDL/HDL_bing02" ModelName="" Type="MONSTER" UpbodyComponent="False" CreateRigidBody="False" AttackRotate="True" HitRotate="True" ToolDir="HDL第一关" CreateHeadTitle="True">
+    <PhyInfo Height="1" Radius="0.5" Step="0.5" SlopLimit="60" X="1.5" Y="1.5" Z="3" />
+  </Actor>
+
 </Actors>
