@@ -213,7 +213,7 @@ function runaway:Update()
 end
 
 function runaway:IsInRange()
-	return SelfToPlayer() < 3 * METER;
+	return SelfToPlayer() < 5 * METER;
 end
 
 --Use skill
